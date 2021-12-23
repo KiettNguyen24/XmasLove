@@ -5,10 +5,10 @@
       <title>I LUV U, U KNOW?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
-    <link rel="stylesheet" href="Absolute_Point.css" />
+    <link rel="stylesheet" href="Absolute_Point2.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script src="Absolute_Point.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="Absolute_Point2.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,10 +16,16 @@
        <div style="display: flex; flex-direction: row;" >
         <div class="row">
             <canvas id="canvas"></canvas>
-            <h1 id="loveQuestion">Chọn Yes hay No đi</h1>
+            <h1 id="loveQuestion">Giờ là câu trả lời, </h1>
+            <h2 id="loveQuestion">  Bây giờ nút no sẽ không chạy nữa...  </h2>
+            <ul>
+                <li>Nếu câu trả lời của bà vẫn là không thì không sao cả</li>
+                <li>Nếu có thì tuyệt</li>
+            </ul>
+            
         </div>
         <div class="row-2">
-            <input type="button" href="Trang2.html" class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</input> 
+            <button type="button"  class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</button> 
             <button type="button" class="btn btn-secondary" id="btnNo" value="KHÔNG" onmouseover="noHover()" onclick="noClick()">Không</button>
         </div>
        
