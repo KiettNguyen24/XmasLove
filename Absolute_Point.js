@@ -79,7 +79,7 @@ window.onload = function () {
 };
 
 function yesClick() {
-  alert("Thương em nhất trên đời!");
+  alert("Giáng sinh an lành, Làm người yêu tui nhé nhé nhé? tui đã ước điều này với ông già Noel cả đêm qua rồi :v");
 }
 
 function noClick() {
