@@ -79,7 +79,7 @@ window.onload = function () {
 };
 
 function yesClick() {
-  alert("Thương em nhất trên đời!");
+  alert("Làm người yêu tui nha?");
 }
 
 function noClick() {
