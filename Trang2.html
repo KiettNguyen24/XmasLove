@@ -13,20 +13,31 @@
 </head>
 <body>
     <div class="container-lg" >
+            <img class="cat1" src="./cat-love.gif" alt="Italian Trulli">
+            <img class="cat1" src="./cat-love.gif" alt="Italian Trulli">
+            <img class="cat1" src="./cat-love.gif" alt="Italian Trulli">
+            <img class="cat1" src="./cat-love.gif" alt="Italian Trulli">
+
+        <canvas id="canvas"></canvas>
+
+
        <div style="display: flex; flex-direction: row;" >
-        <div class="row">
-            <canvas id="canvas"></canvas>
-            <h1 id="loveQuestion">Giờ là câu trả lời, </h1>
-            <h2 id="loveQuestion">  Bây giờ nút no sẽ không chạy nữa...  </h2>
-            <ul>
-                <li>Nếu câu trả lời của bà vẫn là không thì không sao cả</li>
-                <li>Nếu có thì tuyệt</li>
-            </ul>
-            
+        <img class="cat2" src="./dancing-in-love.gif" alt="Italian Trulli">
+        <img class="cat2" src="./dancing-in-love.gif" alt="Italian Trulli">
+        <img class="cat2" src="./dancing-in-love.gif" alt="Italian Trulli">
+        <img class="cat2" src="./dancing-in-love.gif" alt="Italian Trulli">
+        <div class="row">            
+        <h2 id="loveQuestion">Giờ là câu trả lời, nút chọn "Không" sẽ không chạy qua chạy lại nữa...</h2>
         </div>
+            <ul id="loveQuestion2">
+                <li>Nếu câu trả lời của bà vẫn là không thì không sao cả,</li>
+                <li> Nếu có thì tuyệt</li>
+            </ul>
         <div class="row-2">
+            
             <form action="javascript:sendmail()" method="post">
-                    <button type="button"  class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</button> 
+
+            <button type="button"  class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</button> 
             </form>
             <button type="button" class="btn btn-secondary" id="btnNo" value="KHÔNG" onmouseover="noHover()" onclick="noClick()">Không</button>
         </div>

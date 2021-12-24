@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 * {
-  background-color:  rgb(240, 85, 85);
+  
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
@@ -11,7 +11,7 @@
   position: absolute;
   left: 220px;
   top: 230px;
-  font-size: 80px;
+  font-size: 45px;
 }
 
 input {
@@ -40,19 +40,24 @@ button{
   background-color: #ff3c00;
   transition: 0.3s;
 }
-
-body {
-  background: rgb(240, 85, 85);
-}
 canvas {
-  display: flex;
-    background-color:  rgb(240, 85, 85);
+  position: absolute;
+  left: 0;
+  width: 150%;
+  height: 150%;
+    background-image: url("./4530_qua_giang_sinh19.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+body{
+      background-image: url("./4530_qua_giang_sinh19.png");
 }
 
 @media (max-width: 800px) {
   body {
-    background-color: rgb(240, 85, 85);
-     width: 360px;
+    background-image: url("./4530_qua_giang_sinh19.png");
+    width: 360px;
     height: 640px;
     align-items: center;
     justify-content: center;
@@ -95,8 +100,9 @@ canvas {
 #canvas {
   margin-right: 200px;
   display: flex;
-       width: 360px !important;
-    height: 640px !important;
+          background-size: cover;
+       height: 150% !important;
+               opacity: 0.5;
 }
 
 

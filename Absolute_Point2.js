@@ -89,24 +89,11 @@ function yesClick() {
 }).then(
   message => alert(message)
 );
-
-  //  Email.send({
-  //       Host: "smtp.gmail.com",
-  //       Username: "kiet2015x@gmail.com",
-  //       Password: "37109742",
-  //       To: 'kiet2014x@gmail.com',
-  //       From: "kiet2015x@gmail.com",
-  //       Subject: "She say yes, broooo",
-  //       Body: "Yess, she say yess!!!!!!!",
-  //     })
-  //       .then(function (message) {
-  //         alert("mail sent successfully")
-  //       });
 }
 
 function noClick() {
 
-   alert("Mà nó sẽ biến mất :v ");
+   alert("Nút nó sẽ không chạy nữa, Mà nó sẽ biến mất :v ");
    document.getElementById("btnNo").style.visibility="hidden";
 }
 

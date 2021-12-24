@@ -11,7 +11,14 @@
   position: absolute;
   left: 220px;
   top: 230px;
-  font-size: 80px;
+  font-size: 45px;
+}
+
+#loveQuestion2 {
+  position: absolute;
+  left: 220px;
+  top: 400px;
+  font-size: 20px;
 }
 
 input {
@@ -28,7 +35,7 @@ button{
 #btnYes {
   position: absolute;
   left: 480px;
-  top: 450px;
+  top: 650px;
   background-color: #7bd806;
   cursor: pointer;
 }
@@ -36,7 +43,7 @@ button{
 #btnNo {
   position: absolute;
   left: 860px;
-  top: 450px;
+  top: 650px;
   background-color: #ff3c00;
   transition: 0.3s;
 }
@@ -72,6 +79,7 @@ canvas {
   width: 60px;
   font-size: 16px;
   height: 30px;
+      top: 400px;
   position: absolute;
   background-color: #7bd806;
   cursor: pointer;
@@ -82,6 +90,7 @@ canvas {
   width: 60px;
     height: 30px;
   font-size: 16px;
+    top: 400px;
   position: absolute;
   background-color: #f4511e;
   transition: 0.3s;
@@ -92,12 +101,25 @@ canvas {
   top: 230px;
   font-size: 24px;
 }
+#loveQuestion2 {
+  position: absolute;
+  left: 10%;
+  top: 330px;
+  font-size: 15px;
+}
 #canvas {
   margin-right: 200px;
   display: flex;
        width: 360px !important;
-    height: 640px !important;
+    height: 530px !important;
+}
+.cat1{
+    height: 100px;
+    width: 100px;
+}
+.cat2{
+    height: 60px;
+    width: 60px;
+}
 }
 
-
-}
