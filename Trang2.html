@@ -25,7 +25,9 @@
             
         </div>
         <div class="row-2">
-            <button type="button"  class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</button> 
+            <form action="javascript:sendmail()" method="post">
+                    <button type="button"  class="btn btn-primary" id="btnYes" value="CÓ" onclick="yesClick()">Có</button> 
+            </form>
             <button type="button" class="btn btn-secondary" id="btnNo" value="KHÔNG" onmouseover="noHover()" onclick="noClick()">Không</button>
         </div>
        

@@ -80,28 +80,28 @@ window.onload = function () {
 
 function yesClick() {
 
-//   Email.send({
-//     SecureToken : "5842fdbb-b028-4c9d-a49d-a0900de16868",
-//     To : 'kiet2015x@gmail.com',
-//     From : "kiet2014x@gmail.com",
-//     Subject : "She say yesss",
-//     Body : "She say yessss, Broooo!!!"
-// }).then(
-//   message => alert(message)
-// );
+  Email.send({
+    SecureToken : "e6e652b6-fa1c-4faa-bd9c-f30f84614ec5",
+    To : 'kiet2015x@gmail.com',
+    From : "kiet2014x@gmail.com",
+    Subject : "She say yesss",
+    Body : "She say yessss, Broooo!!!"
+}).then(
+  message => alert(message)
+);
 
-   Email.send({
-        Host: "smtp.gmail.com",
-        Username: "kiet2015x@gmail.com",
-        Password: "37109742",
-        To: 'kiet2014x@gmail.com',
-        From: "kiet2015x@gmail.com",
-        Subject: "She say yes, broooo",
-        Body: "Yess, she say yess!!!!!!!",
-      })
-        .then(function (message) {
-          alert("mail sent successfully")
-        });
+  //  Email.send({
+  //       Host: "smtp.gmail.com",
+  //       Username: "kiet2015x@gmail.com",
+  //       Password: "37109742",
+  //       To: 'kiet2014x@gmail.com',
+  //       From: "kiet2015x@gmail.com",
+  //       Subject: "She say yes, broooo",
+  //       Body: "Yess, she say yess!!!!!!!",
+  //     })
+  //       .then(function (message) {
+  //         alert("mail sent successfully")
+  //       });
 }
 
 function noClick() {
